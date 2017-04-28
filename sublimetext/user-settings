@@ -1,0 +1,32 @@
+{
+    "always_show_minimap_viewport": true,
+    "bold_folder_labels": true,
+    "color_scheme": "Packages/User/SublimeLinter/Material-Theme-OceanicNext (SL).tmTheme",
+    "font_options":
+    [
+        "subpixel_antialias"
+    ],
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "overlay_scroll_bars": "enabled",
+    "rulers":
+    [
+        80
+    ],
+    "scroll_past_end": true,
+    "tab_size": 4,
+    "theme": "Material-Theme.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "vintage_start_in_command_mode": true,
+    "word_wrap": true,
+    // Theme specific
+    "material_theme_accent_orange": true, // check out settings for other colors or disable for default
+}
