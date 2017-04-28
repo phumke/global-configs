@@ -1,0 +1,91 @@
+"AndroidSDK": {
+    "version": "*.*"
+    ,"rationale": "Needed to develop and build android applications"
+    ,"installation instructions": "http://developer.android.com/sdk/index.html"
+}
+"bash": {
+    "settings": {
+        "~/.bashrc": [
+            "PS1='$\[\033[01;32m\][\t] \h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '"
+            ,"PS1='\u@\h:\w\$ '"
+        ]
+    }
+    ,"Links on how to edit and set up the bash command prompt": [
+        "http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html"
+        ,"http://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/"
+    ]
+}
+,"Bower": {
+    "version": "*.*"
+    ,"rationale": "This is another package manager for front end angular apps"
+    ,"installation instructions": "https://scotch.io/tutorials/manage-front-end-resources-with-bower"
+}
+,"Chrome": {
+    "version": "*.*"
+    ,"rationale": "This is will be our testing web viewer"
+    ,"plugins": {
+        "Advanced Rest Client": "This provides a client tester for the to test the back end routes/apis"
+    }
+}
+,"Express": {
+    "version": "*.*"
+    ,"rationale": "This is our back end server router"
+    ,"installation instructions": "http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/"
+}
+,"Genymotion": {
+    "version": "*.*"
+    ,"rationale": "This is the emulator for android apps"
+    ,"installation instructions": "https://www.genymotion.com/download/"
+}
+,"Git": {
+    "version": "*.*"
+    ,"rationale": "This is to get packages from github, and write to our repo"
+    ,"installation instructions": "https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"
+}
+,"GVim": "*.*"
+,"Ionic": {
+    "version": 2.0
+    ,"rationale": "Used to build iphone and android hybrid apps using angular 2 and angular 2-like code"
+    ,"installation instructions": "http://ionicframework.com/docs/v2/getting-started/installation/"
+}
+,"Node": {
+    "version": "*.*"
+    ,"rationale": "This is our application server, it will also install npm"
+    ,"installation instructions": "http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/"
+    ,packages [
+      nodemon // for monitoring file changes and reloading the service, nodemon app instead of node app
+      ,discord.js // for building and running discord bots
+    ]
+}
+,"MongoDB": {
+    "version": "*.*"
+    ,"rationale": "This is our back end server database"
+    ,"installation instructions": "http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/"
+}
+,"Sublime-Text": {
+    "version": 3.0
+    ,"rationale": "This is our lightweight text editor for writing code"
+    ,"notes": [
+        "Learn the Keyboard Shortcuts, Multi-Edit, command palette"
+        ,"https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings"
+        ,"https://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/"
+        ,"https://dbader.org/blog/setting-up-sublime-text-for-python-development"
+    ]
+    ,"misc-shortcuts": {
+         "crtl k, ctrl b": "toggle sidebar"
+        ,"ctrl d": "select next duplicate item for multiselect"
+        ,"ctrl r": "bring up alphabetical list of symbols"
+        ,"ctrl p, :", "go to line"
+        ,"ctrl p, @", "go to symbol"
+    }
+}
+,"tsd": {
+    "version": "*.*",
+    ,"rationale": "This installs the typescript definitions so that typescript can be annotated and colorized"
+    ,"installation instructions": "http://stackoverflow.com/questions/32281222/setting-up-angularjs-for-typescript-in-sublime-text-3"
+}
+,"TypeScript": {
+    "version": "*.*"
+    ,"rationale": "This is to be able to write and compile from typescript to js"
+    ,"installation instructions": "npm i -g typescript"
+}
