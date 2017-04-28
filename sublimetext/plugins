@@ -1,0 +1,98 @@
+AllAutocomplete
+Alignment
+BracketHighlighter
+Command Palette
+FileDiffs
+Python 3
+SidebarEnhancements
+SidebarFolder
+SublimeREPL
+SublimeLinter
+    user-settings: {
+        "debug": false,
+        "delay": 0.25,
+        "error_color": "D02000",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme_excludes": [],
+        "lint_mode": "background",
+        "linters": {
+            "annotations": {
+                "@disable": false,
+                "args": [],
+                "errors": [
+                    "FIXME"
+                ],
+                "excludes": [],
+                "warnings": [
+                    "NOTE",
+                    "README",
+                    "TODO",
+                    "XXX",
+                    "@todo"
+                ]
+            },
+            "pep257": {
+                "@disable": false,
+                "add-ignore": "",
+                "args": [],
+                "excludes": [],
+                "ignore": ["D200", "D202", "D203"]
+            },
+            "pep8": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "ignore": "E251",
+                "max-line-length": 512,
+                "select": ""
+            },
+            "pyflakes": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "mark_style": "squiggly underline",
+        "no_column_highlights_line": false,
+        "passive_warnings": false,
+        "paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "rc_search_limit": 3,
+        "shell_timeout": 10,
+        "show_errors_on_save": false,
+        "show_marks_in_minimap": true,
+        "syntax_map": {
+            "html (django)": "html",
+            "html (rails)": "html",
+            "html 5": "html",
+            "javascript (babel)": "javascript",
+            "magicpython": "python",
+            "php": "html",
+            "python django": "python"
+        },
+        "warning_color": "DDB700",
+        "wrap_find": true
+    }
+SublimeLinter-annotations
+SublimeLinter-json
+sublimelint-pyflakes
+sublimelint-pep8
+sublimelint-pep257
+TodoReview
+    user-settings: {
+        "patterns": {
+            "todo": "TODO(\\s)*?:?[\\s]*(?P<todo>.*)$",
+            "note": "NOTE(\\s)*?:?[\\s]*(?P<note>.*)$",
+            "warn": "WARN(\\s)*?:?[\\s]*(?P<warn>.*)$"
+        }
+    }
+TypeScript
+Vintageous // This has expanded vim settings over vingate mode - includes mark and cut, and better command line
