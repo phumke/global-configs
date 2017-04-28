@@ -1,0 +1,22 @@
+atom-handlebars
+busy-signal
+compare-files
+config-import-export
+docblockr
+file-icons
+git-blame
+git-diff-details
+highlight-selected
+intentions
+linter
+linter-js-standard
+linter-ui-default
+merge-conflicts
+minimap
+minimap-git-diff
+minimap-highlight-selected
+neptune-helper
+tree-view-git-status
+vim-mode-plus
+vim-mode-plus-ex-mode
+tree-view-open-files --> currently doesn't work with plugin set
