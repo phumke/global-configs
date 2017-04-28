@@ -1,0 +1,10 @@
+core:
+editor:
+  scroll past end = true
+  font size = 11
+  show indent guide = true
+  show invisibles = true
+  show line numbers = true
+themes:
+  UI Theme = One Dark
+  Syntax Theme = One Dark
